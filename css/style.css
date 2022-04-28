@@ -8,7 +8,7 @@
   margin: 0 auto;
 }
 
-#hero-section, #quote-section,#process-section,#offer-section {
+#hero-section, #quote-section,#process-section,#offer-section,#customer-review  {
 padding:80px 0;
 }
 
@@ -76,7 +76,7 @@ padding:80px 0;
 }
 .image{
   position:relative;
-  width:100%;
+  width:120%;
   left:1rem;
 }
 .flex{
@@ -308,6 +308,11 @@ background:#F2F2F2;
   margin-bottom: 1%;
   color: black;
 }
+#offer-section .service-type:hover{
+  background-color: #FF6433;
+  color: white;
+  font-weight: bold;
+}
 #offer-section .service-type p{
   padding-top: 5px;
   font-family: "Manrope";
@@ -419,6 +424,199 @@ background:#F2F2F2;
  #brand .brand-services .brand-image img{
    width: 100%;
  }
- .mavdavis{
-   margin: 0;
- }
+
+ #customer-review{
+  background: #F2F2F2;
+  padding: 80px 0;
+  min-height:100vh;
+}
+#customer-review h3{
+text-align:center;
+font-size:48px;
+font-weight:700;
+font-family:"Manrope";
+color: #1E1B1B;
+margin-bottom:70px;
+}
+#customer-review .reviews{
+justify-content:space-between;
+}
+#customer-review .reviews .review-box{
+background:white;
+height:300px;
+width:49%;
+padding:40px;
+}
+#customer-review .reviews .review-box p{
+line-height:24px;
+font-family:"Manrope";
+letter-spacing: -0.03em;
+
+}
+.profile{
+margin-top: 30px;
+margin-bottom: 10px;
+}
+.profile img {
+width:100%;  
+}
+#customer-review .reviews .review-text{
+width:95%;
+padding:10px;
+}
+#customer-review .reviews .review-text h5{
+font-size: 24px;
+}
+#customer-review .reviews .review-text p{
+font-size: 16px;
+color: #939191;
+}
+#customer-review .bottom-lines{
+width:100%;
+justify-content:center;
+
+}
+#customer-review .bottom-lines .center-lines{
+width:15%;
+justify-self:center;
+justify-content:center; 
+}
+#customer-review .bottom-lines .center-lines span{
+width:10px;
+height:3px;
+background:grey;
+margin-right:5px;
+margin-top:20px;
+}
+.cir{
+width:30px;
+aspect-ratio:1;
+border:50%;
+background-color:white;
+}
+.cir p{
+line-height:55px;
+text-align:center;
+}
+#faq{
+  background: #E2E6E9;
+  padding: 80px 0;
+  min-height:100vh;
+}
+.container2 {
+  width: 60%;
+  margin: 0 auto;
+}
+#faq h3{
+  font-size:48px;
+  text-align:center;
+  font-family:"Manrope";
+  padding-bottom:80px;
+}
+#faq .faq-box-one {
+width:100%;
+background-color:white;
+justify-content:space-between;
+align-items:center;
+margin:5px;
+padding:20px;
+}
+#faq .faq-text h6{
+font-size:18px;
+font-weight: 600;
+font-family:"Manrope"
+}
+#faq .faq-box-one .faq-text p{
+font-family:"Manrope"
+line-height:20px;
+font-size:15px;
+color: #939191;
+margin-top:7px;
+}
+#faq .faq-box-two {
+width:100%;
+background-color:white;
+justify-content:space-between;
+align-items:center;
+margin:5px;
+padding:15px;
+height:40px;
+text-align:center;
+}
+#faq .faq-box-one .faq-pix img {
+width:55%; 
+}
+#faq .faq-box-two .faq-pix img {
+width:45%;  
+}
+#last-section{
+background: #1E1B1B;
+opacity: 0.98;
+}
+#last-section .last-section-body{
+width:100%;
+justify-content:space-between;
+}
+#last-section .last-section-left{
+width:40%;
+}
+#last-section .last-section-left h3{
+font-family:"Manrope";
+font-size:40px;
+color:#FFFFFF;
+margin-top:85px;
+margin-bottom:70px;
+}
+#last-section .last-section-left .flex-icons img{
+margin-right:20px;
+
+}
+#last-section .last-section-right{
+width:40%;
+padding-top:90px;
+}
+#last-section .last-section-right .text-right{
+padding-bottom:10%;
+}
+#last-section .last-section-right .text-right p{
+font-family:"Manrope";
+font-size:16px;
+color:#FFFFFF;
+Opacity:0.6;
+}
+#last-section .last-section-right .text-right h6{
+font-family:"Manrope";
+font-size:20px;
+color:#FFFFFF;
+margin-bottom:10px;
+letter-spacing: -0.02em
+}
+#last-section .footer{
+background:black;
+width:100%;
+justify-content:space-between;
+align-items:center;
+margin: 0 auto;
+padding: 20px 120px;
+Opacity:0.8;
+}
+#last-section .footer p{
+color: #939191;
+font-family:"Manrope";
+font-size:13px;
+}
+#last-section .footer-text ul {
+  list-style: none;
+  display: flex;
+}
+
+#last-section .footer-text ul li {
+  margin-right: 15px;
+  font-family:"Manrope";
+  font-size:13px;
+}
+
+#last-section .footer-text ul li a {
+  text-decoration: none;
+  color:#FFFFFF;
+}
