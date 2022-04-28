@@ -289,12 +289,10 @@ background:#F2F2F2;
   justify-content: center;
   align-items: center;
   width: 80%;
-  margin: auto;  
-  
+  margin: auto;   
 }
 #offer-section .services-offered img {
   width: 60%;
-
 }
 #offer-section .service-type {
   justify-content: center;
@@ -527,12 +525,13 @@ font-weight: 600;
 font-family:"Manrope"
 }
 #faq .faq-box-one .faq-text p{
-font-family:"Manrope"
+font-family:"Manrope";
 line-height:20px;
 font-size:15px;
 color: #939191;
 margin-top:7px;
 }
+
 #faq .faq-box-two {
 width:100%;
 background-color:white;
@@ -615,7 +614,6 @@ font-size:13px;
   font-family:"Manrope";
   font-size:13px;
 }
-
 #last-section .footer-text ul li a {
   text-decoration: none;
   color:#FFFFFF;
