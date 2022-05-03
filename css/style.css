@@ -620,3 +620,241 @@ font-size:13px;
   color:#FFFFFF;
 }
 
+/* mobile view */
+@media (max-width:426px){
+  .main-header{
+    flex-direction: column;
+    align-items:flex-start;
+  }
+  .right-section{
+    flex-direction: column;
+    align-items:flex-start;
+    width: 100%;
+    display: none;
+  }
+  .right-section .navigation ul{
+    flex-direction: column;
+  }
+  .right-section .navigation{
+    border: none;
+    width: 100%;
+  }
+  .right-section ul li{
+    padding: 10px 0;
+    margin-right: 0;
+  }
+  .right-section ul li a {
+   display: block;
+  }
+  .road-assistance {
+   padding: 10px 0;
+  }
+  .flex-sm-column {
+   flex-direction: column;
+  }
+  #hero-section .text-section, #hero-section .image-section{
+   width: 100%; 
+  }
+  .time-section img {
+    width: 150%;
+  }
+
+  #hero-section .text-section{
+    order: 2;
+  }
+  #hero-section .image-section{
+    order: 1;
+  }
+ .text-section h1{
+   font-size: 30px;
+   margin-top: 0rem;
+   width: 100%;
+ }
+  #quote-section .right-form-section{
+  width:100%;
+  }
+  #quote-section .left-section .image-box{
+    width: 10%;
+  }
+  #quote-section .left-section{
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  #quote-section .left-section h2, #quote-section .right-form-section h3 {
+    font-size: 35px;
+  }
+
+  #process-section .left-process, #process-section .right-process {
+    width: 100%;
+  }
+  #process-section .left-process h2,#process-section .left-process p {
+    width: 100%; 
+  }
+  #process-section .left-process {
+    margin-bottom: 30px;
+    margin-top: -130px;
+  }
+  .process-circle-group {
+    margin:5px 0px 0px 0px;
+  }
+  .process-text-group p {
+    width: 100%; 
+  }
+  #offer-section .offer-header p {
+    font-size: 34px;
+  }
+  #offer-section .offer-header h2 {
+    font-size: 30px;
+    padding-top: 20px;
+    width: 100%;
+  }
+  #offer-section .service-type {
+    width: 125px;
+    height: 120px;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    padding: 28px;
+  }
+  #offer-section .services-offered img {
+    width: 45%
+  }
+  #offer-section .service-type p{
+    padding-top:0px ;
+    font-size: small;
+  }
+  .learn-link {
+    justify-content: center;
+  }
+  .contact-text h4 {
+    padding-top: 50px;
+    text-align: left;
+    font-size: 16px;
+  }
+  .black-button {
+    padding: 7px 7px;
+    font-size: 12px;
+  }
+  .rating-number {
+    font-size: 35px;
+  }
+  .ratings p {
+    font-size: small;
+    padding-right: 13px;
+
+  }
+  .rating-attribute {
+    width: 120%;
+    padding-right: -3px;
+  }
+  #brand .brand-header h3{
+    font-size: 30px;
+  }
+  #brand .brand-services .brand-image img {
+    width: 120%;
+  } 
+  #customer-review h3 {
+    font-size: 35px;
+  }
+  #customer-review .reviews .review-box {
+    width: 100%;
+    padding: 25px;
+    padding-top: 3px;
+    margin-bottom: 8px;
+  }
+  #faq h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  .container2 {
+    width: 80%;
+  }
+  #faq .faq-text h6 {
+    font-size: 12.5px;
+  }
+  #faq .faq-box-one .faq-text p {
+    font-size: 13px;
+  }
+  #faq .faq-box-one .faq-pix img {
+    width: 78%;
+  }
+  #last-section .footer {
+    padding: 6px 35px
+  }
+  #last-section .last-section-left h3 {
+    font-size: 15px;
+  }
+  #last-section .last-section-right {
+    width: 43%;
+    padding-top: 83px;
+  }
+  #last-section .last-section-right .text-right h6 {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  #last-section .footer-text ul li {
+    margin-right: 6px;
+    font-size: 10px;
+  }
+  #last-section .footer .footer-logo img {
+    width: 70%;
+  }
+  #last-section .footer p {
+    font-size: 10px;
+  }
+
+}
+/* Tab view */
+@media (max-width:769px){
+  .right-section ul {
+    padding-left: 18px;
+  }
+  .right-section .navigation {
+    border-right: none;
+  }
+  .road-assistance {
+    padding-left: 1px;
+  }
+  .image {
+    width: 165%;
+    left: -6rem;
+  }
+  .text-section h1 {
+    margin-top: 5rem;
+    font-size: 23px;
+  }
+  #hero-section {
+    padding: 60px 0px;
+  }
+  #quote-section .left-section h2, #quote-section .right-form-section h3 {
+    font-size: 30px;
+  }
+  #quote-section .left-section, #quote-section .right-form-section {
+    width: 50%;
+  }
+  #process-section .left-process {
+    width: 50%;
+  }
+  #process-section .left-process h2, #process-section .left-process p, .process-text-group p, .rating-attribute {
+    width: 100%;
+  }
+  #offer-section .service-type {
+    width: 158px;
+  }
+  .contact-text h4, #customer-review h3 {
+    padding-top: 30px;
+  }
+  #customer-review .reviews .review-box {
+    height: 272px;
+    padding: 20px;
+  }
+  #customer-review .reviews .review-box p{
+    font-size: 12px;
+  }
+  #last-section .footer {
+    padding-inline-end: 30px;
+  }
+  #last-section .footer .footer-logo img {
+    padding-left:0px ;
+    margin-left: -42px;
+  }
+}
