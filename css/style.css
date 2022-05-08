@@ -4,12 +4,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .container {
   width: 80%;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
-#hero-section, #quote-section,#process-section,#offer-section,#customer-review  {
+#hero-section, #quote-section,#process-section,#offer-section,#customer-review, #service-header  {
 padding:80px 0;
 }
 
@@ -332,7 +334,7 @@ background:#F2F2F2;
   text-decoration: none;
   font-family: "Manrope";
   color: black;
-  font-size: 16px;
+  font-size: 14px;
 }
 #contact{
   background-color: #f2f2f2;
@@ -446,6 +448,13 @@ height:300px;
 width:49%;
 padding:40px;
 }
+#customer-review .reviews .review-box2{
+  background:white;
+  height:300px;
+  width:49%;
+  padding:40px;
+  }
+
 #customer-review .reviews .review-box p{
 line-height:24px;
 font-family:"Manrope";
@@ -472,14 +481,17 @@ color: #939191;
 }
 #customer-review .bottom-lines{
 width:100%;
-justify-content:center;
+justify-content:space-between;
+margin-top: 10px;
 
 }
 #customer-review .bottom-lines .center-lines{
 width:15%;
 justify-self:center;
 justify-content:center; 
+padding-left:75px;
 }
+
 #customer-review .bottom-lines .center-lines span{
 width:10px;
 height:3px;
@@ -487,15 +499,25 @@ background:grey;
 margin-right:5px;
 margin-top:20px;
 }
+#customer-review .bottom-lines .center-lines .org{
+  background:#FF6433;
+}
 .cir{
 width:30px;
 aspect-ratio:1;
-border:50%;
+border-radius:50%;
 background-color:white;
+margin-left: 5px;
 }
+.blk{
+  background-color:black;
+  color: #fff;
+}
+
 .cir p{
-line-height:55px;
+line-height:30px;
 text-align:center;
+padding-top: 7px;
 }
 #faq{
   background: #E2E6E9;
@@ -528,9 +550,10 @@ font-family:"Manrope"
 #faq .faq-box-one .faq-text p{
 font-family:"Manrope";
 line-height:20px;
-font-size:15px;
+font-size:14px;
 color: #939191;
 margin-top:7px;
+width: 90%;
 }
 
 #faq .faq-box-two {
@@ -544,7 +567,8 @@ height:40px;
 text-align:center;
 }
 #faq .faq-box-one .faq-pix img {
-width:55%; 
+width:70%; 
+margin-right: 20px;
 }
 #faq .faq-box-two .faq-pix img {
 width:45%;  
@@ -553,6 +577,7 @@ width:45%;
 background: #1E1B1B;
 opacity: 0.98;
 }
+
 #last-section .last-section-body{
 width:100%;
 justify-content:space-between;
@@ -600,14 +625,20 @@ margin: 0 auto;
 padding: 20px 120px;
 Opacity:0.8;
 }
+
 #last-section .footer p{
 color: #939191;
 font-family:"Manrope";
 font-size:13px;
+width: 117%;
 }
 #last-section .footer-text ul {
   list-style: none;
   display: flex;
+}
+#last-section .footer-text{
+  justify-content: center;
+  font-family: "Manrope";
 }
 
 #last-section .footer-text ul li {
@@ -619,9 +650,313 @@ font-size:13px;
   text-decoration: none;
   color:#FFFFFF;
 }
+.margin-top {
+  margin-top: 150px;
+}
+/* services-page */
+#service-header .header-image img{
+  width: 76%;
+}
+#service-header .header-right{
+  background: #1E1B1B;
+  width:55%;
+  margin-left:-45%;
+  padding: 60px 0px 0px 50px;
+  color: #F2F2F2;
+  font-family: "Manrope";
+  height: 412px;
+}
+#service-header .header-right h1{
+  font-size: 50px;
+}
+#service-header .header-right p {
+  font-size: 14px;
+  line-height: 30px;
+  width: 90%;
+}
+#Auto-Diagnostics {
+  padding: 80px 0;
+  background: #F5F5F5;
+}
 
+#Auto-Diagnostics .Auto-left {
+  width: 50%;
+  min-height: 100vh;
+}
+#Auto-Diagnostics .Auto-left {
+  background: #FFFFFF;
+}
+#Auto-Diagnostics .Auto-left .Auto-image img {
+  width: 98%;
+  padding: 20px;
+}
+#Auto-Diagnostics .Auto-text {
+  padding: 20px;
+}
+#Auto-Diagnostics .Auto-text h2 {
+  font-size: 30px;
+  font-family: "Manrope";
+  margin-bottom: 20px;
+}
+#Auto-Diagnostics .Auto-text p {
+  font-size: 20px;
+  line-height: 34px;
+  font-family: "Manrope";
+  margin-bottom: 10px;
+  width: 90%;
+  color: #232536;
+
+}
+.justify-content{
+  justify-content: space-between;
+}
+#Auto-Diagnostics .Auto-left a {
+  text-decoration: none;
+  font-family: "Manrope";
+  color: black;
+  font-size: 18px;
+  padding: 20px;
+  font-family: "Manrope";
+  font-weight: 600;
+}
+#Auto-Diagnostics .Auto-right{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 100px;
+  width: 50%;
+  justify-content: center;
+
+}
+#Auto-Diagnostics .Auto-right .Auto-type{
+  width: 40%;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  padding: 40px;
+  margin: 10px; 
+}
+#Auto-Diagnostics .Auto-right .Auto-type p{
+  font-family: "Manrope";
+  padding-top: 20px;
+}
+#Auto-Diagnostics .Auto-type:hover{
+  background-color: #FF6433;
+  color: white;
+  font-weight: bold;
+}
+#Auto-Diagnostics .Auto-type.chosen{
+  background-color: #FF6433;
+  color: white;
+  font-weight: bold;
+}
+#work-section{
+  padding: 80px 0;
+}
+#work-section .work-left, #work-section .work-right {
+  width: 50%;
+}
+#work-section h3{
+  padding-bottom: 30px;
+  font-size: 42px;
+  font-family: "Manrope";
+}
+.work-group{
+  display: flex;
+  padding-bottom: 30px;
+}
+.work-group p{
+  font-size: 15px;
+  font-family: "Manrope";
+  width: 70%;
+  
+}
+.green {
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #00D289;
+  color: #fff;
+}
+.good-circle {
+  width: 2rem;
+  position: absolute;
+}
+.good-circle p{
+  line-height: 2rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.work-text{
+  padding:0px 0px 0px 50px;
+}
+.work-right img {
+  width: 95%;
+}
+#car-problems{
+  padding: 80px 0;
+  min-height: 100vh;
+}
+#car-problems .cars, #car-problems .cars-text{
+  width: 50%;
+}
+
+.cars img{
+  width: 95%;
+}
+.cars-text{
+  width: 50%;
+  padding-left: 20px;
+}
+.cars-text h3{
+  font-size: 40px;
+  width: 105%;
+  font-family: "Manrope";
+}
+.cars-text p{
+  font-size: 13px;
+  line-height: 28px;
+  font-family: "Manrope";
+  color: #232536;
+  padding-top: 20px;
+}
+
+/* Tab view */
+@media (max-width:769px){
+  .right-section ul {
+    padding-left: 18px;
+  }
+  .right-section .navigation {
+    border-right: none;
+  }
+  .road-assistance {
+    display: none;
+  }
+  .image {
+    width: 165%;
+    left: -6rem;
+  }
+  .text-section h1 {
+    margin-top: 5rem;
+    font-size: 23px;
+  }
+  #hero-section {
+    padding: 60px 0px;
+  }
+  #quote-section .left-section h2, #quote-section .right-form-section h3 {
+    font-size: 30px;
+  }
+  #quote-section .left-section, #quote-section .right-form-section {
+    width: 50%;
+  }
+  #process-section .left-process {
+    width: 50%;
+  }
+  #process-section .left-process h2, #process-section .left-process p, .process-text-group p, .rating-attribute {
+    width: 100%;
+  }
+  #process-section .left-process h2{
+    font-size: 40px;
+  }
+  #process-section .left-process p, .process-text-group p{
+    font-size:14px;
+  }
+
+  #offer-section .service-type {
+    width: 158px;
+  }
+  .contact-text h4, #customer-review h3 {
+    padding-top: 30px;
+  }
+  #customer-review .reviews .review-box {
+    height: 272px;
+    padding: 20px;
+  }
+  #customer-review .reviews .review-box p{
+    font-size: 12px;
+  }
+  #customer-review .bottom-lines .center-lines {
+    width: 36%;
+  }
+  #faq .faq-box-one .faq-pix img {
+    width: 50%;
+    margin-right: 2px;
+    margin: 0px 35px 0px 14px;
+}
+
+#faq .faq-box-one .faq-text p {
+  font-size: 12px;
+}
+
+  #last-section .footer {
+    padding-inline-end: 47px;
+  }
+  #last-section .footer .footer-logo img {
+    padding-left:0px ;
+    margin-left: -42px;
+  }
+  #last-section .footer p {
+    width: 100%;
+  }
+  #service-header .header-right {
+    height: 315px;
+    padding: 20px 0px 0px 35px;
+  }
+  #service-header .header-right h1 {
+    font-size: 30px;
+  }
+  #service-header .header-right p{
+    font-size: 11px;
+    line-height: 25px;
+  }
+  #Auto-Diagnostics {
+    width: 120%;
+  }
+  #Auto-Diagnostics .Auto-left {
+    width: 50%;
+  }
+  #Auto-Diagnostics .Auto-right {
+    width: 70%;
+  }
+  #Auto-Diagnostics .Auto-right .Auto-type {
+    width: 42%;
+    padding: 6px;
+    margin: 10px;
+    height: 170px;
+  }
+  #Auto-Diagnostics .Auto-right .Auto-type img {
+    margin: 12px;
+  }
+  #Auto-Diagnostics .Auto-text p {
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 0%;
+  }
+  #Auto-Diagnostics .Auto-left a {
+    font-size: 12px;
+  }
+  #work-section h3 {
+    padding-bottom: 12px;
+    font-size: 22px;
+  }
+  .work-group p {
+    font-size: 13px;
+    width: 100%;
+  }
+  .cars, .cars-text {
+    width: 100%;
+  }
+  .cars-text h3 {
+    font-size: 18px;
+  }
+  .cars-text p {
+    font-size: 12px;
+    margin-top: -16px;
+    margin-bottom: -25px;
+    line-height: 21px;
+  }
+
+}
 /* mobile view */
-@media (max-width:426px){
+@media (min-width:320px) and (max-width:425px){
   .main-header{
     flex-direction: column;
     align-items:flex-start;
@@ -670,8 +1005,11 @@ font-size:13px;
    margin-top: 0rem;
    width: 100%;
  }
-  #quote-section .right-form-section{
-  width:100%;
+  #quote-section .left-section, #quote-section .right-form-section {
+  width: 100%;
+  }
+  #process-section .left-process {
+  width: 100%;
   }
   #quote-section .left-section .image-box{
     width: 10%;
@@ -681,24 +1019,39 @@ font-size:13px;
     width: 100%;
   }
   #quote-section .left-section h2, #quote-section .right-form-section h3 {
-    font-size: 35px;
+    font-size: 25px;
   }
 
-  #process-section .left-process, #process-section .right-process {
+  #process-section .right-process {
     width: 100%;
   }
-  #process-section .left-process h2,#process-section .left-process p {
+  #process-section .left-process h2, #process-section .left-process p {
     width: 100%; 
   }
   #process-section .left-process {
     margin-bottom: 30px;
     margin-top: -130px;
   }
+
   .process-circle-group {
-    margin:5px 0px 0px 0px;
+    margin:14px 0px -32px 0px;
+  }
+  .process-circle {
+    width: 2rem;
+  }
+  .process-circle p{
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .process-text-group h6 {
+    font-size: 16px;
   }
   .process-text-group p {
-    width: 100%; 
+    width: 100%;
+    font-size: 13px; 
+    line-height: 20px;
   }
   #offer-section .offer-header p {
     font-size: 34px;
@@ -726,25 +1079,29 @@ font-size:13px;
     justify-content: center;
   }
   .contact-text h4 {
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: left;
     font-size: 16px;
   }
   .black-button {
     padding: 7px 7px;
-    font-size: 12px;
+    font-size: 8px;
+  }
+  .ratings {
+    width: 90%;
   }
   .rating-number {
-    font-size: 35px;
+    font-size: 15px;
   }
   .ratings p {
-    font-size: small;
-    padding-right: 13px;
+    font-size: 9px;
+    padding-right: 15px;
 
   }
   .rating-attribute {
     width: 120%;
     padding-right: -3px;
+    margin-left: 2px;
   }
   #brand .brand-header h3{
     font-size: 30px;
@@ -757,9 +1114,12 @@ font-size:13px;
   }
   #customer-review .reviews .review-box {
     width: 100%;
-    padding: 25px;
+    padding: 15px;
     padding-top: 3px;
     margin-bottom: 8px;
+  }
+  #customer-review .reviews .review-box p {
+    font-size: 10px;
   }
   #faq h3 {
     font-size: 30px;
@@ -772,16 +1132,19 @@ font-size:13px;
     font-size: 12.5px;
   }
   #faq .faq-box-one .faq-text p {
-    font-size: 13px;
+    font-size: 10px;
   }
   #faq .faq-box-one .faq-pix img {
-    width: 78%;
+    width: 60%;
   }
   #last-section .footer {
-    padding: 6px 35px
+    padding: 6px 15px
   }
   #last-section .last-section-left h3 {
     font-size: 15px;
+  }
+  #last-section .last-section-left .flex-icons img {
+    margin-right: 10px;
   }
   #last-section .last-section-right {
     width: 43%;
@@ -791,70 +1154,44 @@ font-size:13px;
     font-size: 14px;
     margin-bottom: 4px;
   }
+  #last-section .footer-text {
+    margin-left: -45px;
+  }
   #last-section .footer-text ul li {
     margin-right: 6px;
-    font-size: 10px;
+    font-size: 8px;
+  }
+  #last-section .footer .footer-logo{
+    padding-left: 50px;
   }
   #last-section .footer .footer-logo img {
-    width: 70%;
+    width: 80%;
   }
   #last-section .footer p {
-    font-size: 10px;
+    font-size: 7px;
   }
-
-}
-/* Tab view */
-@media (max-width:769px){
-  .right-section ul {
-    padding-left: 18px;
-  }
-  .right-section .navigation {
-    border-right: none;
-  }
-  .road-assistance {
-    padding-left: 1px;
-  }
-  .image {
-    width: 165%;
-    left: -6rem;
-  }
-  .text-section h1 {
-    margin-top: 5rem;
-    font-size: 23px;
-  }
-  #hero-section {
-    padding: 60px 0px;
-  }
-  #quote-section .left-section h2, #quote-section .right-form-section h3 {
-    font-size: 30px;
-  }
-  #quote-section .left-section, #quote-section .right-form-section {
-    width: 50%;
-  }
-  #process-section .left-process {
-    width: 50%;
-  }
-  #process-section .left-process h2, #process-section .left-process p, .process-text-group p, .rating-attribute {
+  #service-header .header-image img {
     width: 100%;
   }
-  #offer-section .service-type {
-    width: 158px;
+  #service-header .header-right  {
+    margin-left: 3px;
+    width: 100%;
   }
-  .contact-text h4, #customer-review h3 {
-    padding-top: 30px;
+  #Auto-Diagnostics .Auto-left,  #Auto-Diagnostics .Auto-right{
+    width: 90%;
   }
-  #customer-review .reviews .review-box {
-    height: 272px;
-    padding: 20px;
+  #work-section .work-left, #work-section .work-right{
+    width: 100%;
   }
-  #customer-review .reviews .review-box p{
-    font-size: 12px;
+  .cars-text h3 {
+    margin-top: 15px;
   }
-  #last-section .footer {
-    padding-inline-end: 30px;
+  .cars-text p {
+    margin: -10px 0px -10px 0px;
   }
-  #last-section .footer .footer-logo img {
-    padding-left:0px ;
-    margin-left: -42px;
-  }
+
+  
+
 }
+
+ 
